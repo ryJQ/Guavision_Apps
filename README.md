@@ -29,7 +29,6 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.ucrop)
     implementation(libs.tensorflow.lite.support)
-    implementation "org.tensorflow:tensorflow-lite-metadata:0.4.4"
     implementation(libs.tensorflow.lite.metadata)
 
     // ML Binding (Generated automatically during build)
