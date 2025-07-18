@@ -26,11 +26,12 @@ Guavision is an Android application that detects and classifies diseases in guav
 - **Minimum Android Version:** 8.0 (API 26)
 ```gradle
 dependencies {
-    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
-    implementation "com.github.yalantis:ucrop:2.2.8"
-    implementation "org.tensorflow:tensorflow-lite-support:0.4.4"
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.ucrop)
+    implementation(libs.tensorflow.lite.support)
     implementation "org.tensorflow:tensorflow-lite-metadata:0.4.4"
-    
+    implementation(libs.tensorflow.lite.metadata)
+
     // ML Binding (Generated automatically during build)
     implementation project(":ml") 
 }
